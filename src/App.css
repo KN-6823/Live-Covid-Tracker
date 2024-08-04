@@ -135,7 +135,6 @@ li.card6:hover {
   text-shadow: 6px 6px 6px rgb(0, 0, 0);
 }
 
-
 /* Responsive styles */
 @media (max-width: 1200px) {
   ul {
@@ -145,14 +144,16 @@ li.card6:hover {
 
 @media (max-width: 800px) {
   ul {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr; 
   }
 }
 
 @media (max-width: 600px) {
-  section h1,
+  section h1 {
+    font-size: 1.0em;
+  }
   section h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   ul {
@@ -175,7 +176,6 @@ li.card6:hover {
 }
 
 @media (max-width: 400px) {
-
   body {
     background-position: center center;
     background-size: cover;
@@ -186,21 +186,18 @@ li.card6:hover {
     margin: 30px;
   }
 
-  section h1,
-  section h2 {
-    font-size: 1.2em;
+  section h1 {
+    font-size: 1.0em;
   }
-
-  /* li {
-    width: 220px;
-    height: 100px;
-  } */
+  section h2 {
+    font-size: 1.3em;
+  }
 
   .card_name {
     font-size: 1em;
   }
 
   .card_total.card_small {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
