@@ -1,5 +1,8 @@
 body {
-  background-color: black;
+  background-image: url(https://img.freepik.com/free-vector/horizontal-abstract-covid-19-background-novel-coronavirus-2019-ncov-vector-illustration-green-tone_25819-592.jpg?w=1380&t=st=1722776418~exp=1722777018~hmac=898fa4d209dfeff10112c63851e8f834bd3424f16d4be4c38f967bea784468ee);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section {
@@ -15,6 +18,8 @@ section h1 {
 
 section h2 {
   margin: 0;
+  font-size: 35px;
+  font-weight: bold;
   padding-bottom: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -29,11 +34,12 @@ ul {
 }
 
 li.card1 {
-  background-color: rgb(87, 116, 233);
+  background-color: rgba(87, 116, 233, 0.6);  
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
 
 li.card1:hover {
   transform: scale(1.05);
@@ -41,7 +47,7 @@ li.card1:hover {
 }
 
 li.card2 {
-  background-color: rgb(5, 165, 74);
+  background-color: rgb(5, 165, 74, 0.6);
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -53,7 +59,7 @@ li.card2:hover {
 }
 
 li.card3 {
-  background-color: rgb(151, 193, 34);
+  background-color: rgb(151, 193, 34, 0.6);
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -65,7 +71,7 @@ li.card3:hover {
 }
 
 li.card4 {
-  background-color: rgb(225, 123, 14);
+  background-color: rgb(225, 123, 14, 0.6);
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -77,7 +83,7 @@ li.card4:hover {
 }
 
 li.card5 {
-  background-color: rgb(45, 67, 230);
+  background-color: rgb(45, 67, 230, 0.6);
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -89,7 +95,7 @@ li.card5:hover {
 }
 
 li.card6 {
-  background-color: rgb(202, 180, 57);
+  background-color: rgb(202, 180, 57, 0.6);
   border-radius: 5px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -169,10 +175,26 @@ li.card6:hover {
 }
 
 @media (max-width: 400px) {
+
+  body {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  section {
+    padding: 0;
+    margin: 30px;
+  }
+
   section h1,
   section h2 {
     font-size: 1.2em;
   }
+
+  /* li {
+    width: 220px;
+    height: 100px;
+  } */
 
   .card_name {
     font-size: 1em;
