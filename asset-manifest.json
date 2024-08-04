@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https/kn-6823.github.io/Live-Covid-Tracker/static/css/main.7c448189.css",
-    "main.js": "/https/kn-6823.github.io/Live-Covid-Tracker/static/js/main.b9c568dd.js",
-    "static/js/453.f40412dc.chunk.js": "/https/kn-6823.github.io/Live-Covid-Tracker/static/js/453.f40412dc.chunk.js",
-    "index.html": "/https/kn-6823.github.io/Live-Covid-Tracker/index.html",
-    "main.7c448189.css.map": "/https/kn-6823.github.io/Live-Covid-Tracker/static/css/main.7c448189.css.map",
-    "main.b9c568dd.js.map": "/https/kn-6823.github.io/Live-Covid-Tracker/static/js/main.b9c568dd.js.map",
-    "453.f40412dc.chunk.js.map": "/https/kn-6823.github.io/Live-Covid-Tracker/static/js/453.f40412dc.chunk.js.map"
+    "main.css": "/Live-Covid-Tracker/static/css/main.7c448189.css",
+    "main.js": "/Live-Covid-Tracker/static/js/main.b952e72b.js",
+    "static/js/453.f40412dc.chunk.js": "/Live-Covid-Tracker/static/js/453.f40412dc.chunk.js",
+    "index.html": "/Live-Covid-Tracker/index.html",
+    "main.7c448189.css.map": "/Live-Covid-Tracker/static/css/main.7c448189.css.map",
+    "main.b952e72b.js.map": "/Live-Covid-Tracker/static/js/main.b952e72b.js.map",
+    "453.f40412dc.chunk.js.map": "/Live-Covid-Tracker/static/js/453.f40412dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c448189.css",
-    "static/js/main.b9c568dd.js"
+    "static/js/main.b952e72b.js"
   ]
 }
